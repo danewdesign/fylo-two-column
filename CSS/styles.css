@@ -1,0 +1,322 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/********** Title Section **********/
+#title {
+  padding: 3% 4% 15% 4%;
+}
+.navigation {
+  margin-bottom: 50px;
+}
+
+.dropnav {
+  text-align: center;
+}
+
+.title-signup-container {
+  align-self: center;
+  padding-right: 25px;
+}
+
+.title-signup-container h2 {
+  max-width: 500px;
+}
+
+.title-signup-container p {
+  font-size: 0.9rem;
+  max-width: 480px;
+}
+
+.input {
+  margin-right: 10px;
+  padding: .2rem 0 .2rem 10px;
+  width: 48%;
+}
+
+.get-started1 {
+  border-radius: .2rem;
+  font-size: 0.9rem;
+  padding: .4rem 2.5rem .4rem 2.5rem;
+}
+
+.img-logo {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+.img-title-illustration {
+  max-width: 100%;
+}
+
+/********** Pitch Section **********/
+#pitch {
+  background-color: hsl(240, 55%, 98%);
+  padding: 6% 4% 8%;
+}
+
+.content-bg-container {
+  position: relative;
+
+}
+
+.img-desktop-bg {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+}
+
+.sell-it p {
+  font-size: 0.9rem;
+  width: 471px;
+}
+
+.how-fylo-works {
+  border-bottom: 1px solid;
+  color: hsl(170, 45%, 43%);
+  font-size: 0.9rem;
+  padding-bottom: 3px;
+}
+
+.testimonial {
+  border: 1px solid transparent;
+  border-radius: .5rem;
+  box-shadow: 0 4px 18px 0 rgba(0,0,0,0.2);
+  margin-top: 50px;
+  width: 60%;
+}
+
+.img-quotes {
+  margin-bottom: 15px;
+}
+
+.testimonial p {
+  font-size: 0.8rem;
+  line-height: 2;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-pic {
+  width: 20%;
+}
+
+.profile-info {
+  height: 33px;
+  margin: auto 0;
+}
+
+.profile-info h6 {
+  font-size: 0.8rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.profile-info p {
+  font-size: 0.6rem;
+}
+
+.img-profile {
+  border-radius: 100%;
+  max-width: 80%;
+}
+
+.content-illustration-container {
+  align-self: center;
+}
+
+.img-content-illustration {
+  max-width: 100%;
+}
+
+/********** CTA Section **********/
+#cta {
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  padding: 6% 4%;
+}
+
+.cta-message p {
+  font-size: 0.9rem;
+  width: 80%;
+}
+
+.cta-signup {
+  align-self: baseline;
+  padding-left: 50px;
+}
+
+.input2 {
+  margin: 0 10px 10px 0;
+  padding: .2rem 0 .2rem 10px;
+  width: 100%;
+}
+
+.get-started2 {
+  border-radius: .2rem;
+  font-size: 0.9rem;
+  padding: .4rem 2rem .4rem 2rem;
+}
+
+/********** Footer Section **********/
+#footer {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 8% 4% 5%;
+}
+
+#footer a {
+  color: #fff;
+}
+
+.footer-logo-container {
+  margin: 0 0 25px 15px;
+}
+
+.img-footer-logo {
+  max-width: 90%;
+}
+
+.contact {
+  opacity: 0.8;
+}
+
+.img-phone {
+  margin-right: 15px;
+  width: 4%;
+}
+
+.img-email {
+  margin-right: 15px;
+  width: 4%;
+}
+
+.footer-links {
+  display: table;
+  opacity: 0.6;
+  padding-bottom: 15px;
+}
+
+.footer-links:hover {
+  opacity: 1.0;
+  text-decoration: none;
+}
+
+.social-container {
+  padding-left: 50px;
+}
+
+.social-icons {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  font-size: 0.9rem;
+  margin: 0 10px;
+  opacity: 0.6;
+}
+
+.social-icons:hover {
+  opacity: 1.0;
+}
+
+.facebook {
+  padding: 5px 11px;
+}
+
+.twitter {
+  padding: 6px 10px;
+}
+
+.instagram {
+  padding: 6px 11px;
+}
+
+@media (max-width: 992px) {
+/* Title Section - Medium Displays */
+  .title-row {flex-direction: column-reverse;}
+  .title-illustration-container {margin-bottom: 2rem; text-align: center;}
+  .img-title-illustration {max-width: 75%;}
+  .title-signup-container {text-align: center;}
+  .title-signup-container h2 {margin: .5rem auto;}
+  .title-signup-container p {margin: 0 auto 1rem auto; max-width: 440px;}
+  .input {display: block; margin: 0 auto 1rem auto;}
+  .get-started1 {width: 48%;}
+
+/* Pitch Section - Medium Displays */
+  .pitch-row {flex-direction: column-reverse;}
+  .content-illustration-container {max-width: 75%;}
+  .sell-it {margin: 5rem auto 2rem auto; max-width: 62%;}
+  .testimonial {margin: 50px auto 0 auto;}
+
+/* Footer Section - Medium Displays */
+  .img-phone {width: 5%;}
+  .img-email {width: 5%;}
+}
+
+@media (max-width: 768px) {
+/* Pitch Section - Small Displays */
+  .sell-it {max-width: 85%;}
+
+/* Call to Action Section - Small Displays */
+  #cta {padding: 8% 4% 12%; text-align: center;}
+  .cta-signup {padding: 0;}
+  .cta-message p {margin: 0 auto 2rem auto; width: 90%;}
+  .input2 {margin: 0 0 20px; width: 80%;}
+  .get-started2 {width: 80%;}
+
+/* Footer Section - Small Displays */
+  #footer {text-align: center;}
+  .logo-row {justify-content: center;}
+  .footer-logo-container {margin: 0 0 25px;}
+  .img-phone {width: 2.5%;}
+  .img-email {width: 2.5%;}
+  .footer-links {display: inline-block; margin: 50px 10px;}
+  .social-container {padding-left: 0;}
+}
+
+@media (max-width: 576px) {
+/* Title Section - X-Small Displays */
+  h2 {font-size: 1.5rem;}
+  .img-logo {max-width: 90%;}
+  .img-title-illustration {max-width: 90%;}
+  .input {width: 70%;}
+  .get-started1 {width: 70%;}
+
+/* Pitch Section - X-Small Displays */
+  .content-bg-container {margin-top: 12%;}
+  #pitch {margin-top: 12%; padding: 6% 4% 12%;}
+  .content-illustration-container {max-width: 90%;}
+  .sell-it p {width: 100%;}
+  .testimonial {width: 80%;}
+
+
+/* Footer Section - X-Small Displays */
+  .footer-links {margin: 0 10px;}
+  .left-footer-links {margin: 50px 0;}
+  .right-footer-links {margin-bottom: 50px;}
+}
+
+@media (max-width: 500px) {
+/* Some extra queries for even smaller mobile screens */
+  .img-logo {max-width: 80%;}
+  .title-signup-container h2 {max-width: 250px;}
+  .input {width: 100%;}
+  .get-started1 {width: 100%;}
+  .sell-it {max-width: 100%;}
+  .testimonial {width: 90%;}
+  .img-phone {width: 4%;}
+  .img-email {width: 4%;}
+}
